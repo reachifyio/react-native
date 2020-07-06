@@ -52,7 +52,7 @@
 /*eslint-disable no-undef */
 require('shelljs/global');
 
-const buildTag = process.env.CIRCLE_TAG;
+const buildTag = 'v0.63.0-reachify-rc.0';// process.env.CIRCLE_TAG;
 const otp = process.env.NPM_CONFIG_OTP;
 
 if (!buildTag) {
